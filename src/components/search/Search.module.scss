@@ -1,0 +1,40 @@
+.search {
+  width: 332px;
+  height: 330px;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #484848;
+
+  .input {
+    height: 33px;
+    width: 100%;
+    padding: 6px 14px;
+
+    outline: none;
+
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .list {
+    text-align: left;
+    width: 100%;
+
+    border: 1px solid #E5E5E5;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .none {
+    display: none;
+  }
+
+  .active {
+    border-radius: 4px 4px 0px 0px;
+    box-shadow: none;
+  }
+}
